@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  padding: 0 25px;
+  position: fixed;
+  width: 96vw;
+  background-color: #fff;
+  top: 0;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.select {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add_button {
+  background-color: #198754;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.add_button:hover {
+  background-color: #146c43;
+}
+
+.delete_button{
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 10px;
+
+}
+
+.delete_button:hover{
+  background-color: #a52834;
+}
+
+.refresh_button{
+  background-color: #212529;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.refresh_button:hover{
+  background-color: #4d5154;
+}
+
+.update_button{
+  background-color: #ffcd39;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.update_button:hover{
+  background-color: #ffc107;
+}
+
+.employee_table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 15vh 25px 25px;
+  }
+  
+  .employee_table th, .employee_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .employee_table th {
+    background-color: #f2f2f2;
+  }
+  
